@@ -4,6 +4,7 @@
  * User: taro
  * Date: 2015/01/29
  * Time: 12:32
+ * @version 1.00
  */
 class ZATUDAN
 {
@@ -22,6 +23,8 @@ class ZATUDAN
     /**
      * @param $APIKEY
      * @param $QUESTIONTEXT
+     *
+     * @var $_APIKEY string APILEYを入れる変数
      */
     public function getData($APIKEY,$QUESTIONTEXT)
     {
